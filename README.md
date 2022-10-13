@@ -16,7 +16,7 @@ For this step we need to run the following commands `microk8s enable ingress`, `
 **Step 2**: *Edit the kubernetes Dashboard service*
 
 On this step we need to edit the kubernetes-dashboard service file, this file is the one who makes the dashboard works.
-For this we need to use the next command 'kubectl -n kube-system edit service kubernetes-dashboard'. Once we type that, we´ll find something like [this](https://github.com/DockerSailor/Expose-Kubernetes-Dashboard/blob/main/kubernetes-dashboard-service)
+For this we need to use the next command `kubectl -n kube-system edit service kubernetes-dashboard`. Once we type that, we´ll find something like [this](https://github.com/DockerSailor/Expose-Kubernetes-Dashboard/blob/main/kubernetes-dashboard-service)
 
 ```
 # Please edit the object below. Lines beginning with a '#' will be ignored,
